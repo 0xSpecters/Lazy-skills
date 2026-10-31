@@ -1,4 +1,4 @@
-# Zcode-skills
+# Lazy-skills
 
 A collection of skills for AI coding agents (ZCode, Codex, Claude Code, and other SKILL.md-compatible agents). Each skill is a self-contained folder with a `SKILL.md` that provides instructions and workflows the agent loads on demand.
 
@@ -13,14 +13,14 @@ A collection of skills for AI coding agents (ZCode, Codex, Claude Code, and othe
 Install a skill with the [skills CLI](https://skills.sh):
 
 ```bash
-npx skills add 0xSpecters/Zcode-skills@project-log
+npx skills add 0xSpecters/Lazy-skills@project-log
 ```
 
 Alternatively, copy the skill folder directly into your agent's skills directory (for example `~/.zcode/skills/` or `~/.codex/skills/`):
 
 ```bash
-git clone https://github.com/0xSpecters/Zcode-skills.git
-cp -r Zcode-skills/skills/project-log ~/.zcode/skills/
+git clone https://github.com/0xSpecters/Lazy-skills.git
+cp -r Lazy-skills/skills/project-log ~/.zcode/skills/
 ```
 
 ## Usage
@@ -53,7 +53,7 @@ Example log structure:
 ## Structure
 
 ```
-Zcode-skills/
+Lazy-skills/
 └── skills/
     └── project-log/
         └── SKILL.md
